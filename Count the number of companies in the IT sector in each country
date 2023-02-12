@@ -1,0 +1,4 @@
+-- 
+
+
+select count(company) as noofcompany ,country from forbes_global_2010_2014 group by country order by count(company) desc;
